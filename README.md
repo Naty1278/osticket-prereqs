@@ -6,9 +6,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,34 +20,45 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install/ Enable Internet Information Service
+- Install PHP Manager for IIS
+- Install Rewrite Module
+- Create the directory C:\PHP
+- Download PHP 7.3.8
+- Install VC_redist.x86.exe
+- Install MySQL5.5.62
+- Open IIS as Admin
+- Register PHP from within IIS
+- Reload IIS
+- Install osTicket v1.15.8
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="839" alt="Screen Shot 2024-09-14 at 11 49 08 AM" src="https://github.com/user-attachments/assets/0eaeeadd-5662-47aa-ad0e-fd53f424195a">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img width="746" alt="Screen Shot 2024-09-14 at 11 57 41 AM" src="https://github.com/user-attachments/assets/946c456b-99f5-4adf-8370-72614a2ac074">
+
+Once VM is created login through Microsoft Remote Desktop which is found on MAC. Copy Public IP address and enter the same username and password created in Azure. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="494" alt="Screen Shot 2024-09-14 at 3 42 12 PM" src="https://github.com/user-attachments/assets/1572a315-4b10-4c20-a7d8-4193fd69adec">
+
+<img width="411" alt="Screen Shot 2024-09-14 at 2 30 56 PM" src="https://github.com/user-attachments/assets/0779ed43-c893-494e-a106-f6f76fe464d2">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Installations of PHP Manager for IIS and the later is conducted including MySQL5.5.62.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="679" alt="Screen Shot 2024-09-14 at 4 07 39 PM" src="https://github.com/user-attachments/assets/ebe03b39-5775-4e00-a028-3dd6e3e02f00">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Making web server aware of PHP by registering PHP from within IIS. Downloaded and installed OsTicket. 
 </p>
 <br />
